@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+
+.post{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 50px;
+  gap: 20px;
+  
+}
+.post-grid{
+  width: 300px;
+  height: 350px;
+  background-color: gainsboro;
+  text-align: center;
+}
+.post-grid > h3{
+  padding-top: 20px;
+}
+.view{
+  background-color: black;
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+  height: 40px;
+}
+.nav{
+  background-color:rgb(149,93,201);
+  height: 80px;
+}
+.search{
+  height: 35px;
+  margin-top: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+.btn{
+  margin-left: 20px;
+  height: 35px;
+  width: 90px;
+  border-radius: 10px;
+  font: 1em sans-serif;
+  border-color: rgb(18,102,241);
+  color: rgb(18,102,241);
+  background-color: white;
+}
